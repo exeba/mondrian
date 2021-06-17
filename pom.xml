@@ -96,6 +96,14 @@
     </repository>
   </repositories>
 
+  <distributionManagement>
+     <repository>
+       <id>github</id>
+       <name>GitHub exeba Apache Maven Packages</name>
+       <url>https://maven.pkg.github.com/exeba/mondrian</url>
+     </repository>
+  </distributionManagement>
+
   <pluginRepositories>
     <pluginRepository>
       <id>pentaho-public-plugins</id>
